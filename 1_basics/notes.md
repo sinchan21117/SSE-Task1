@@ -45,4 +45,26 @@ int main(){                // main function where program execution starts
   a--;   // Post-decrement
   --a;   // Pre-decrement
 
+5. input and output
 
+1.output-> cout is used to display output on the screen.
+ 
+  syntax: cout<< "message";
+
+2.input-> cin is used to take input from the user
+
+  syntax: cin >> variable;
+
+6. conditional statements
+
+  Conditional statements are used to make decisions in a program based on a condition.
+
+  1.if and else
+
+  syntax: if(condition){
+              // code
+          }else{
+              //code
+          }
+
+  ternary syntax: condition? stt1 : strr2;
