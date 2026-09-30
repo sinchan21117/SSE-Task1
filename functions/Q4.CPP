@@ -9,6 +9,7 @@ int factorial(int n){
         fact*=i;
     }
     return fact;
+    // return (n==1 ? 1 : factorial(n-1)*n);
 }
 
 int nCr( int n , int r){
@@ -22,9 +23,5 @@ int nCr( int n , int r){
 
 
 int main(){
-    int n=8 , r=2;
-    cout << nCr(n,r);
-
-    return 0;
+    cout << factorial(5) << endl;
 }
-    
