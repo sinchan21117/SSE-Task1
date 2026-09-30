@@ -1,7 +1,6 @@
 # c++ basics 
 
-1. cpp is a general purposprograming language . it is used to develop software , games,
-applications and many other programes.
+1. cpp is a general purpose programing language . it is used to develop software , games,applications and many other programes.
 
 2. basic of c++ program
 
