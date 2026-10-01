@@ -2,15 +2,16 @@
 
 1. cpp is a general purpose programing language . it is used to develop software , games,applications and many other programes.
 
-2. basic of c++ program
+2. basic of c++ program 
 
 #include<iostream>   // used for input and output
 using namespace std;  // allow us to use standard liberary names directly
 
 int main(){                // main function where program execution starts
     cout<<"hello world";   // used to display output
-    retutn 0;              // indicates successsfull completion of the program
+    return 0;              // indicates successful completion of the prog
 }
+
 
 3. variables
 
