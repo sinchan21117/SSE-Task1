@@ -1,4 +1,6 @@
-1. FUNCTIONS -> A function is a block of code designed to perform a specific task. It helps in code reusability, modularity, and makes programs easier to understand and maintain.
+# FUNCTIONS
+
+A function is a block of code designed to perform a specific task. It helps in code reusability, modularity, and makes programs easier to understand and maintain.
 
   //syntax
 
@@ -20,4 +22,9 @@ there are two types of memory
 1.stack -> that stores data in the form of layer , in these function are stored  
 2.heap -> that used in dynamic allocation 
 
-3. pass by value -> copy of argument is passed to function.
+3.pass by value -> copy of argument is passed to function.
+
+4.BINARY NUMBER SYSTEM
+
+The Binary Number System is a number system that uses only two digits:
+0 and 1. It is a Base-2 number system.
