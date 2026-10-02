@@ -90,3 +90,65 @@ Swap the elements at start and end.
 Increase start.
 Decrease end.
 Continue until start < end becomes false.
+
+###### VECTOR ALGORITHM
+
+A Vector is a dynamic array in C++. Unlike a normal array, the size of a vector can increase or decrease dynamically during program execution.
+Vectors are part of the STL (Standard Template Library).
+To use a vector, we include:
+
+Syntax:
+1.vector< int> vec;
+
+Here:
+vector → Data structure
+< int>  → Data type
+vec    → Vector name
+
+Example:
+vector< int> marks;
+This creates an empty vector of integers.
+
+2.Creating a Vector with Values
+We can directly initialize a vector with values:
+vector< int> vec = {10, 20, 30, 40, 50};
+The vector contains: 10 20 30 40 50
+
+3.vector< int>vec(3,0)
+3 -> represents the size of vector
+0 -> represents the respective values of index means all are same value in index
+
+There is a special type of loop name as for each loop
+syntax: for(int i: vec)
+where, int i represents the index stored value
+       vec represents the name of vector.
+
+There are imp vector functions
+1.push_back()-Adds an element at the end of the vector.
+
+v.push_back(10);
+v.push_back(20);
+Vector:10 20
+
+2.pop_back()-Removes the last element of the vector.
+
+v.pop_back();
+
+Before:10 20 30
+After:10 20
+
+3.size()-Returns the number of elements currently present in the vector.
+cout << v.size();
+
+4.capacity()-Returns the amount of storage currently allocated by the vector.
+cout << v.capacity();
+Remember:size <= capacity
+
+5.front()-Returns the first element of the vector.
+cout << v.front();
+
+6.back()-Returns the last element of the vector.
+cout << v.back();
+
+7.at()-Accesses an element at a particular index with bounds checking.
+cout << v.at(2);
